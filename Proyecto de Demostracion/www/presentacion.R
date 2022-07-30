@@ -2,5 +2,38 @@ presentacion<-{fluidRow(column(width = 12),h3("PROYECTO ESPECIAL DE INVERSION PU
                         column(width = 12),tags$ul(
                           tags$li("De La Cruz Joseph Francisco"),
                           tags$li("Villanueva Flores Fatima Dayanna")
+                        ),
+                        h3('Diccionario de datos: '),
+                        tags$ul(
+                          tags$li('NRO_PROY	Numero de los proyectos de inversión a ejecutar entre 0 y 75'),
+                          tags$li('LIDER_PROY	Personal asignado a la fecha para liderar la ejecución del proyecto, pertenece a la Dirección de Infraestructura Educativa'),
+                          tags$li('COORD_CART_PROY	Personal asignado a la fecha para tag$liderar el portafotag$lio de 25 proyectos, pertenece a la Dirección de Infraestructura Educativa'),
+                          tags$li('COD_LOC	Código de la institución educativa a nivel nacional en la plataforma Escale del MINENU'),
+                          tags$li('COD_MOD	Código de la institución educativa respecto al nivel educativo con el que cuenta la IE puede ser 09 códigos (Inicial, Primaria, Secundaria, Básica Alternativa, Educación Especial, Superior Pedagógica, Superior Artística, Superior Tecnológica, CETPRO)'),
+                          tags$li('DET_COD_MOD	Descripción del nivel/modatag$lidad Educativo '),
+                          tags$li('NOMB_IE	Nombre de la Institución Educativa según el proyecto de inversión.'),
+                          tags$li('REGION	Nombre de la Región donde se ubica el proyecto de inversión	Texto'),
+                          tags$li('DEPARTAMENTO	Nombre del departamento donde se ubica el proyecto de inversión'),
+                          tags$li('PROVINCIA	Nombre de la Provincia donde se ubica el proyecto de inversión'),
+                          tags$li('DISTRITO	Nombre del Distrito donde se ubica el proyecto de inversión'),
+                          tags$li('UBIGEO	Código de la ubicación geográfica de la institución educativa'),
+                          tags$li('UGEL	Código de las Unidades de Gestión Educativa Local son instancia de ejecución descentratag$lizada de los Gobiernos Regionales'),
+                          tags$li('Código Único de Inversiones según el Invierte PE'),
+                          tags$li('NOMB_PROY	Nombre del Proyecto de Inversión registrado en el Banco de Inversiones del Invierte PE'),
+                          tags$li('COOR_WGS_ESTE	Coordenadas de ubicación este en el sistema WGS84 de un punto cualquiera dentro del proyecto a ejecutar'),
+                          tags$li('COOR_WGS_OESTE	Coordenadas de ubicación oeste en el sistema WGS84 de un punto cualquiera dentro del proyecto a ejecutar'),
+                          tags$li('FECHA_VIAB	Fecha de viabitalidad del proyecto de inversión registrada en el Banco de Inversiones del Invierte PE'),
+                          tags$li('COS_INV_PRE	Monto de inversión registrado en la viabilidad del proyecto de inversión en el Banco de Inversiones del Invierte PE.'),
+                          tags$li('PIM_2022	Presupuesto Institucional Modificado, monto máximo a desembolsar en el presente ejercicio fiscal 2022.'),
+                          tags$li('LATITUD	Conversión de las coordenadas de ubicación WGS84 a distancia geográfica con respecto al Ecuador (0º)'),
+                          tags$li('LONGITUD	Conversión de las coordenadas de ubicación WGS84 a distancia geográfica con respecto al Greenwich (0º)'),
+                          tags$li('CARTERA	Cartera I o Cartera II o Cartera III, distribución interna para gestionar un portafotag$lio de proyectos'),
+                          tags$li('NRO_PAQ	Orden de paquete puede ser Paquete 0, Paquete 1, Paquete 2, Paquete 3, Paquete 4, Paquete 5, Paquete 6, Paquete 7, Paquete 8.'),
+                          tags$li('PAQUETE	Denominación a un grupo de proyectos a ejecutar según prioridades teniendo en consideración criterios de logística, complejidad, ubicación, riesgos, etc'),
+                          tags$li('BENEF_PRE	Cantidad de beneficiarios del proyecto de inversión viable registrado en el banco de inversiones'),
+                          tags$li('CAT_IE	Denominación a un grupo de proyectos según ubicación geográfica considerando la altitud de nivel del mar'),
+                          tags$li('Cantidad de aulas a intervenir del proyecto de inversión registrado en la viabitag$lidad (Pre-Inversión) considera construcción, remodelación y reparación de aulas'),
+                          tags$li('Saneamiento Físico Legal del proyecto de inversión puede ser PROPIEDAD (Propiedad del MINEDU), AFECTADO EN USO (Terreno de propiedad del SBN, pero con uso del MINEDU)'),
+                          tags$li('Fecha que se generó este DataSet')
                         )
 )}

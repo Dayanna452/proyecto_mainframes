@@ -16,10 +16,8 @@ recoleccion<-{
       
       # Input: Checkbox if file has header ----
       checkboxInput("header", "Header", TRUE),
-      
-      checkboxGroupInput("cleaner", "Limpieza de datos",
-                         choices= c("Eliminar nulos"='1',"Eliminar datos repetidos"='2'))
-
+      checkboxInput("nullData", "Eliminar datos nulos", FALSE),
+      checkboxInput("duplicateData", "Eliminar datos duplicados", FALSE),
     ),
     
     # Main panel for displaying outputs ----
